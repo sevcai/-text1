@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../jQuery/.idea/jQuery.iml" filepath="$PROJECT_DIR$/../jQuery/.idea/jQuery.iml" />
+      <module fileurl="file://F:/wamp64/www/php/.idea/php.iml" filepath="F:/wamp64/www/php/.idea/php.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/旅游.iml" filepath="$PROJECT_DIR$/.idea/旅游.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,210 @@
+/*
+* @Author: asus
+* @Date:   2017-08-20 22:53:15
+* @Last Modified by:   asus
+* @Last Modified time: 2017-08-28 09:17:29
+*/
+@font-face {
+  font-family: 'iconfont';  /* project id 355320 */
+  src: url('http://at.alicdn.com/t/font_355320_5u4us3wvn4kakyb9.eot');
+  src: url('http://at.alicdn.com/t/font_355320_5u4us3wvn4kakyb9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_355320_5u4us3wvn4kakyb9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_355320_5u4us3wvn4kakyb9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_355320_5u4us3wvn4kakyb9.svg#iconfont') format('svg');
+}
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+body {
+	background: url('bg_body.jpg') center 0 no-repeat #d6bba0;
+}
+header{
+	width: 1270px;
+	height: 230px;
+	margin: 0 auto;
+	position: relative;
+}
+.top{
+	width: 100%;
+	height: 130px;
+	position: relative;
+}
+.top ul{
+	width: 1100px;
+	height: 33px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 0;
+	display: flex;
+	justify-content: space-between;
+}
+.toubu li{
+	padding-right: 30px;
+	font-size: 24px;
+	line-height: 33px;
+}
+.toubu li a{
+	color: white;
+	transition: 0.8s;
+}
+.toubu li a:hover{
+	color: #263555;
+}
+.toubu li:last-child{
+	padding-right: 0;
+}
+.toubu li:nth-child(4){
+	width: 85px;
+}
+.jour{
+	width: 168px;
+	height: 168px;
+	background: white;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 168px;
+	color: #263555;
+	border-radius: 50%;
+}
+.bottom-box{
+	width: 1270px;
+	height: 130px;
+	margin: 0 auto;
+	background: #30455b;
+}
+.lianxi{
+	width: 672px;
+	height: 99px;
+	margin: 0 auto;
+	background: #30455b;
+}
+.lianxi li{
+	width: 168px;
+	height: 99px;
+	float: left;
+}
+.bot-t{
+	display: block;
+	width: 100%;
+	height: 24px;
+	margin-top: 40px;
+	font-size: 16px;
+	line-height: 24px;
+	color: white;
+	transition: 0.4s;
+}
+.bot-b{
+	display: block;
+	width: 100%;
+	height: 24px;
+	margin-top: 10px;
+	font-size: 16px;
+	line-height: 24px;
+	color: white;
+	transition: 0.4s;
+}
+.bot-b:hover,.bot-t:hover,.info:hover{
+	color: #5abce9;
+}
+.lianxi li h4{
+	width: 100%;
+	height: 24px;
+	margin-top: 35px;
+	font-size: 16px;
+	line-height: 24px;
+	color: white;
+	transition: 0.4s;
+}
+.tel{
+	width: 100%;
+	height: 15px;
+	margin-top: 5px;
+	font-size: 11px;
+	line-height: 15px;
+	color: white;
+	transition: 0.4s;
+}
+.info{
+	display: block;
+	width: 100%;
+	height: 15px;
+	margin-top: 5px;
+	font-size: 11px;
+	line-height: 15px;
+	color: white;
+	transition: 0.4s;
+}
+footer{
+	width: 100%;
+	height: 96px;
+	padding-top: 40px;
+}
+.share{
+	width: 230px;
+	height: 46px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.share a{
+	display: block;
+	width: 46px;
+	height: 46px;
+	border-radius: 50%;
+	transition: 0.4s;
+	background: url('../img/socials.png') 0 0 no-repeat;
+}
+.share a:nth-child(2){
+	background-position: -60px 0;
+}
+.share a:nth-child(3){
+	background-position: -122px 0;
+}
+.share a:nth-child(4){
+	background-position: right 0;
+}
+.share a:hover{
+	opacity: 0.6;
+}
+.banquan{
+	width: 100%;
+	height: 19px;
+	margin-top: 20px;
+	font-size: 12px;
+	line-height: 19px;
+	text-align: center;
+	color: white;
+}
+.ftop{
+	width: 36px;
+	height: 36px;
+	position: fixed;
+	bottom: 30px;
+	right: 60px;
+	background: #38afe5;
+	line-height: 36px;
+	font-family: 'iconfont';
+	font-size: 15px;
+	text-align: center;
+	color: white;
+	border-radius: 50%;
+	transition: 0.5s;
+	cursor: pointer;
+	display: none;
+}
+.ftop:hover{
+	opacity: 0.5;
+}

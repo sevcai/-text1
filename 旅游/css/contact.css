@@ -1,0 +1,143 @@
+/*
+* @Author: asus
+* @Date:   2017-09-03 13:52:25
+* @Last Modified by:   asus
+* @Last Modified time: 2017-09-03 16:09:45
+*/
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+.content{
+	width: 1270px;
+	height: 700px;
+	background: white;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+.big-con{
+	width: 1152px;
+	height: 700px;
+	margin: 0 auto;
+}
+.left{
+	width: 840px;
+	height: 100%;
+	float: left;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+.right{
+	width: 264px;
+	height: 100%;
+	float: left;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+.left h3,.right h3{
+	width: 100%;
+	height: 44px;
+	margin-bottom: 50px;
+	font-size: 30px;
+	line-height: 44px;
+	color: #263555;
+}
+.con-bot{
+	width: 100%;
+	height: 414px;
+	/* background: red; */
+}
+.lefts{
+	width: 550px;
+	height: 414px;
+	float: left;
+	background: yellowgreen;
+}
+.lefts img{
+	width: 100%;
+	height: 100%;
+}
+.rights{
+	width: 264px;
+	height: 414px;
+	float: right;
+	/* background: yellowgreen; */
+}
+.add{
+	width: 100%;
+	height: 38px;
+	font-size: 14px;
+	line-height: 19px;
+	margin-bottom: 19px;
+	color: #666565;
+}
+.phone{
+	width: 100%;
+	height: 19px;
+	font-size: 14px;
+	line-height: 19px;
+	color: #666565;
+}
+.phone span{
+	float: right;
+	margin-right: 50px;
+}
+.phone a{
+	color: #fa7e7e;
+	transition: 0.3s;
+}
+.phone a:hover{
+	color: #38afe5;
+}
+.right input{
+	width: 100%;
+	height: 20px;
+	background: #fcfafa;
+	margin-bottom: 20px;
+	outline: none;
+	border: 1px solid #666565;
+	padding: 4px 10px;
+}
+::-webkit-input-placeholder{
+	color: #fa7e7e;
+}
+#liuyan{
+	width: 100%;
+	height: 233px;
+	background: #fcfafa;
+	outline: none;
+	border: 1px solid #666565;
+	padding: 15px 10px;
+	resize: none;
+}
+.clear,.send{
+	width: 65px;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	font-size: 18px;
+	border: 1px solid #666565;
+	background: #fcfafa;
+	border-radius: 3px;
+	float: right;
+	margin-right: 10px;
+	cursor: pointer;
+	margin-top: 20px;
+	outline: none;
+}
+.clear:hover,.send:hover{
+	color: white;
+	background: #38afe5;
+	transition: 0.4s;
+}
+.rest{
+	width: 100%;
+	height: 15px;
+	font-size: 14px;
+	line-height: 15px;
+}
+.rest span{
+	color: red;
+}
