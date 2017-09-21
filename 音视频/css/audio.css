@@ -1,0 +1,197 @@
+/*
+* @Author: asus
+* @Date:   2017-08-31 08:41:55
+* @Last Modified by:   asus
+* @Last Modified time: 2017-08-31 16:31:58
+*/
+@font-face {
+  font-family: 'iconfont';  /* project id 401714 */
+  src: url('http://at.alicdn.com/t/font_401714_xekdq167sibmlsor.eot');
+  src: url('http://at.alicdn.com/t/font_401714_xekdq167sibmlsor.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_401714_xekdq167sibmlsor.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_401714_xekdq167sibmlsor.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_401714_xekdq167sibmlsor.svg#iconfont') format('svg');
+}
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+main{
+	width: 100%;
+	height: 100%;
+	background: url('../img/1.jpg') no-repeat center center;
+	background-size: cover;
+}
+.top{
+	width: 600px;
+	height: 500px;
+	/* background: red; */
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.song,.singer{
+	width: 100%;
+	height: 30px;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+}
+.song{
+	font-weight: bold;
+}
+.singer{
+	font-size: 15px;
+}
+.top ul{
+	width: 100%;
+	height: 350px;
+	margin-top: 20px;
+	overflow: hidden;
+}
+.top ul li{
+	width: 100%;
+	height: 25px;
+	font-size: 16px;
+	line-height: 25px;
+	text-align: center;
+}
+.bottom{
+	width: 950px;
+	height: 80px;
+	margin: 30px auto;
+	background: rgba(255, 255, 255, 0.1);
+}
+.photo{
+	width: 80px;
+	height: 80px;
+	float: left;
+	background: red;
+	background-size: cover;
+	border-radius: 50%;
+}
+.photo img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.pre,.pause,.next{
+	width: 50px;
+	height: 50px;
+	float: left;
+	/* background: red; */
+	margin-left: 10px;
+	font-family: 'iconfont';
+	font-size: 40px;
+	line-height: 50px;
+	text-align: center;
+	color: #31C27C;
+	font-weight: bold;
+	cursor: pointer;
+	margin-top: 15px;
+}
+.jindu{
+	width: 350px;
+	height: 5px;
+	border-radius: 3px;
+	background: white;
+	margin-top: 45px;
+}
+.big{
+	width: 350px;
+	height: 100%;
+	float: left;
+	margin-left: 20px;
+}
+.name{
+	width: 120px;
+	height: 20px;
+	font-size: 10px;
+	color: white;
+	float: left;
+	line-height: 20px;
+	margin-top: 20px;
+}
+.time{
+	width: 120px;
+	height: 20px;
+	font-size: 10px;
+	color: white;
+	float: right;
+	line-height: 20px;
+	margin-top: 20px;
+	text-align: right;
+}
+.jin{
+	width: 0;
+	height: 100%;
+	background: #31C27C;
+	border-radius: 2px;
+}
+.box{
+	width: 110px;
+	height: 30px;
+	margin-top: 25px;
+	float: left;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 20px;
+}
+.box li{
+	width: 30px;
+	height: 100%;
+	font-size: 23px;
+	line-height: 30px;
+	text-align: center;
+	color: #dddddd;
+	font-family: 'iconfont';
+	cursor: pointer;
+}
+.box li:hover{
+	color: #31C27C;
+}
+.yinliang{
+	width: 140px;
+	height: 30px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 20px;
+}
+.left{
+	width: 30px;
+	height: 100%;
+	float: left;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+	font-family: 'iconfont'
+}
+.right{
+	width: 110px;
+	height: 4px;
+	margin-top: 13px;
+	float: left;
+	background: white;
+	position: relative;
+}
+.voice{
+	width: 20px;
+	height: 4px;
+	background: #31C27C;
+}
+.voc{
+	width: 14px;
+	height: 14px;
+	background: #31C27C;
+	position: absolute;
+	left: 20px;
+	top: -5px;
+	border-radius: 50%;
+}
