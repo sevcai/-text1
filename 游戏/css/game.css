@@ -1,0 +1,70 @@
+/*
+* @Author: asus
+* @Date:   2017-08-23 09:02:51
+* @Last Modified by:   asus
+* @Last Modified time: 2017-08-23 21:46:52
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	background: url('qixi1.jpg') no-repeat;
+	background-size: cover;
+}
+.char{
+	width: 80px;
+	height: 80px;
+	border-radius: 7px;
+	font-size: 0;
+	line-height: 80px;
+	text-align: center;
+	background: no-repeat center center/cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-size: contain;
+	color: black;
+	font-family: sans-serif;
+}
+.start{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background: pink;
+	position: absolute;
+	top: 450px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+	background: url('../img/start.png') no-repeat center center;
+	background-size: contain;
+}
+.score{
+	width: 100px;
+	height: 30px;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: bold;
+	color: red;
+}
+.live{
+	width: 100px;
+	height: 30px;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: bold;
+	color: red;
+}
+span{
+	width: 50px;
+	height: 30px;
+	float: right;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+}
