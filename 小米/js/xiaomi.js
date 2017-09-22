@@ -153,7 +153,7 @@ $(function(){
 				for(let j=0;j<qiehuan.length;j++){
 					qiehuan[j].style.display='none';
 					a[j].style.color='#424242'
-					a[j].style.borderColor='white'
+					a[j].style.borderColor='#f5f5f5'
 				}
 				qiehuan[i].style.display='block';
 				a[i].style.color='#ff6700'
