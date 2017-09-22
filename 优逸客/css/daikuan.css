@@ -1,0 +1,205 @@
+/*
+* @Author: asus
+* @Date:   2017-07-22 14:45:00
+* @Last Modified by:   asus
+* @Last Modified time: 2017-07-22 23:51:31
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.toubu{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+.logo{
+	width: 0.72rem;
+	height: 0.67rem;
+	float: left;
+	margin-left: 2.73rem;
+	margin-top: 0.13rem;
+	background: url('logo.png') no-repeat center center;
+	background-size: 0.72rem 0.67rem;
+}
+.youyike{
+	width: 1.15rem;
+	height: 0.35rem;
+	float: left;
+	margin-left: 0.15rem;
+	margin-top: 0.29rem;
+	font-size: 0.34rem;
+	line-height: 0.34rem;
+	text-align: center;
+	color: #ffffff;
+}
+.head{
+	width: 100%;
+	height: 0.92rem;
+	background: white;
+}
+.banner{
+	width: 100%;
+	height: 2.8rem;
+	background: red;
+}
+.banner a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: green;
+}
+.banner a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.shouye{
+	width: 100%;
+	height: 0.82rem;
+	background: #f5f6fa;
+	overflow: hidden;
+}
+.shouye a{
+	display: block;
+	height: 0.21rem;
+	margin-top: 0.30rem;
+	font-size: 0.21rem;
+	color: #494747;
+	float: left;
+	line-height: 0.21rem;
+	margin-left: 0.23rem;
+}
+.shouye a:last-child{
+	margin-left: 0.04rem;
+}
+.fuhao{
+	float: left;
+	height: 0.21rem;
+	margin-top: 0.19rem;
+	margin-left: 0.1rem;
+	font-size: 0.21rem;
+}
+:root{
+	background: #f5f6fa;
+}
+.gaishu{
+	width: 100%;
+	height: 16rem;
+	background: #f5f6fa;
+}
+.baise{
+	width: 7.02rem;
+	height: 100%;
+	margin: 0 auto;
+	background: white;
+	overflow: hidden;
+	position: relative;
+}
+.sekuai{
+	width: 0.04rem;
+	height: 0.2rem;
+	position: absolute;
+	left: 0.19rem;
+	top: 0.32rem;
+	background: #01b5ff;
+}
+.p1{
+	height: 0.23rem;
+	font-size: 0.23rem;
+	line-height: 0.23rem;
+	color: black;
+}
+.sekuai-right{
+	width: 6.42rem;
+	height: 0.38rem;
+	background: #ffffff;
+	margin-left: 0.45rem;
+	margin-top: 0.3rem;
+	border-bottom: 0.01rem dashed #999999;
+	box-sizing: border-box;
+}
+pre{
+	margin-top: 0.17rem;
+	margin-left: 0.45rem;
+	font-size: 0.23rem;
+	color: #666666;
+	line-height: 0.4rem;
+}
+.dakuai{
+	width: 100%;
+	height: 3.62rem;
+	background: pink;
+	margin-top: 0.1rem;
+}
+.xuxian{
+	width: 6.42rem;
+	height: 0.30rem;
+	border-bottom: 0.01rem dashed #999999;
+	margin-left: 0.45rem;
+}
+.feixiang{
+	width: 100%;
+	height: 0.4rem;
+	background: #ffffff;
+	margin-top: 0.262rem;
+}
+.dao{
+	width: 1.17rem;
+	height: 100%;
+	font-size: 0.23rem;
+	color: #000000;
+	line-height: 0.4rem;
+	text-align: center;
+	float: left;
+}
+.feixiang a{
+	display: block;
+	width: 0.4rem;
+	height: 0.4rem;
+	background: white;
+	float: left;
+	margin-right: 0.2rem;
+}
+.feixiang a:nth-child(6){
+	margin-right: 1.86rem;
+}
+.feixiang a:nth-child(8){
+	margin-right: 0rem;
+}
+.feixiang a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.banquan{
+	width: 100%;
+	height: 0.92rem;
+	background: #f5f6fa;
+	overflow: hidden;
+	margin-top: 0.1rem;
+}
+.quan1{
+	width: 100%;
+	height: 0.2rem;
+	font-size: 0.17rem;
+	line-height: 0.2rem;
+	text-align: center;
+	color: #666666;
+	margin-top: 0.2rem;
+}
+.quan2{
+	width: 100%;
+	height: 0.2rem;
+	font-size: 0.18rem;
+	line-height: 0.2rem;
+	text-align: center;
+	color: #666666;
+	margin-top: 0.14rem;
+}

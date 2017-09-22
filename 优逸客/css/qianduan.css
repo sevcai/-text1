@@ -1,0 +1,373 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.toubu{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+.logo{
+	width: 0.72rem;
+	height: 0.67rem;
+	float: left;
+	margin-left: 2.73rem;
+	margin-top: 0.13rem;
+	background: url('logo.png') no-repeat center center;
+	background-size: 0.72rem 0.67rem;
+}
+.youyike{
+	width: 1.15rem;
+	height: 0.35rem;
+	float: left;
+	margin-left: 0.15rem;
+	margin-top: 0.29rem;
+	font-size: 0.34rem;
+	line-height: 0.34rem;
+	text-align: center;
+	color: #ffffff;
+}
+.head{
+	width: 100%;
+	height: 0.92rem;
+	background: white;
+}
+.banner{
+	width: 100%;
+	height: 2.8rem;
+	background: red;
+}
+.banner a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: green;
+}
+.banner a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.shouye{
+	width: 100%;
+	height: 0.82rem;
+	background: #f5f6fa;
+	overflow: hidden;
+}
+.shouye a{
+	display: block;
+	height: 0.21rem;
+	margin-top: 0.30rem;
+	font-size: 0.21rem;
+	color: #494747;
+	float: left;
+	line-height: 0.21rem;
+	margin-left: 0.23rem;
+}
+.shouye a:last-child{
+	margin-left: 0.04rem;
+}
+.fuhao{
+	float: left;
+	height: 0.21rem;
+	margin-top: 0.19rem;
+	margin-left: 0.1rem;
+	font-size: 0.21rem;
+}
+:root{
+	background: #f5f6fa;
+}
+.diyi{
+	width: 7.02rem;
+	height: 2.26rem;
+	margin-left: 0.24rem;
+	background: #fff;
+	margin-bottom: 0.1rem;
+}
+.shixue{
+	margin-left: 0.47rem;
+	width: 86.6%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.shixue div{
+	width: 1.21rem;
+	height: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+.shixue div a{
+	margin-top: 0.28rem;
+	width: 1.21rem;
+	height: 1.21rem;
+	display: block;
+}
+.shixue div a img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.shixue span{
+	margin-top: 0.2rem;
+	font-size: 0.24rem;
+	color: #000;
+	display: block;
+}
+.dier{
+	width: 7.02rem;
+	height: 5.58rem;
+	margin-left: 0.24rem;
+	margin-bottom: 0.1rem;
+	background: #fff;
+	overflow: hidden;
+	position: relative;
+}
+.sekuai{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01b5ff;
+	margin-left: 0.19rem;
+	margin-top: 0.32rem;
+}
+.dier span{
+	position: absolute;
+	top: 0.22rem;
+	left: 0.4rem;
+	font-size: 0.22rem;
+	font-weight: bolder;
+}
+.xuxian{
+	position: absolute;
+	top: 0.67rem;
+	left: 0.4rem;
+	width: 6.43rem;
+	height: 0;
+	border-bottom: 1px dashed #999999;
+}
+.dier pre{
+	margin-left: 0.4rem;
+	margin-top: 0.3rem;
+	font-size: 0.24rem;
+	color: #504c4c;
+	line-height: 0.4rem;
+}
+.dier pre b{
+	color: #01b5ff;
+}
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+.disan{
+	width: 7.02rem;
+	height: 5.76rem;
+	margin-left: 0.24rem;
+	margin-bottom: 0.1rem;
+	background: #ffffff;
+	overflow: hidden;
+	position: relative;
+}
+.disan span{
+	position: absolute;
+	top: 0.22rem;
+	left: 0.4rem;
+	font-size: 0.22rem;
+	font-weight: bolder;
+}
+.disan a{
+	display: block;
+	width: 6.4rem;
+	height: 4.9rem;
+	margin:0 auto;
+	margin-top: 0.23rem;
+}
+.disan img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.disi{
+	width: 7.02rem;
+	height: 5.55rem;
+	margin-left: 0.24rem;
+	margin-bottom: 0.1rem;
+	background: #fff;
+	overflow: hidden;
+	position: relative;
+}
+.disi span{
+	position: absolute;
+	top: 0.22rem;
+	left: 0.4rem;
+	font-size: 0.22rem;
+	font-weight: bolder;
+}
+.zhiweilan{
+	width: 6.52rem;
+	height: 4.36rem;
+	margin-top: .36rem;
+	margin-left: .44rem;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+.zhiweilan li{
+	width: 100%;
+	height: 0.56rem;
+}
+.zhiweilan li img{
+	width: 0.56rem;
+	height: 0.56rem;
+	display: block;
+	float: left;
+}
+.zhiweilan li pre{
+	font-size: .16rem;
+	float: left;
+	color: #3e3a39;
+	margin-left: 0.2rem;
+}
+.zhiweilan li pre b{
+	color: #01b5ff;
+}
+.diwu{
+	width: 7.02rem;
+	height: 4.98rem;
+	margin-left: 0.24rem;
+	margin-bottom: 0.1rem;
+	background: #fff;
+	overflow: hidden;
+	position: relative;
+}
+.diwu span{
+	position: absolute;
+	top: 0.22rem;
+	left: 0.4rem;
+	font-size: 0.22rem;
+	font-weight: bolder;
+}
+.xueyuanxinxi{
+	width: 6.74rem;
+	height: 3.89rem;
+	margin-top: 0.42rem;
+	margin-left: 0.28rem;
+	box-sizing: border-box;
+}
+.biaotou{
+	width: 100%;
+	height: 0.49rem;
+}
+.biaotou pre{
+	font-size: 0.24rem;
+}
+.xinxi{
+	width: 100%;
+	height: 3.4rem;
+	box-sizing: border-box;
+	border-left: 1px dashed #01b5ff;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-around;
+}
+
+.xinxi div{
+	width: 100%;
+	height: 0.24rem;
+	font-size: 0.24rem;
+}
+.xinxi div pre{
+	color: #666666;
+}
+.xinxi div b{
+	color: #ffa201;
+}
+.yuan1{
+	width: 0.18rem;
+	height: 0.18rem;
+	background: #01b5ff;
+	border-radius: 50%;
+	box-sizing: border-box;
+	border: 0.03rem solid #94e0ff;
+	position: absolute;
+	top: 1.7rem;
+	left: 0.19rem;
+}
+.yuan2{
+	position: absolute;
+	top: 2.4rem;
+	left: 0.19rem;
+}
+.yuan3{
+	position: absolute;
+	top: 3.05rem;
+	left: 0.19rem;
+}
+.yuan4{
+	position: absolute;
+	top: 3.75rem;
+	left: 0.19rem;
+}
+.yuan5{
+	position: absolute;
+	top: 4.4rem;
+	left: 0.19rem;
+}
+.diliu{
+	width: 93.6%;
+	height: 4.98rem;
+	margin-left: 0.24rem;
+	margin-bottom: 0.1rem;
+	background: #fff;
+	overflow: hidden;
+	position: relative;
+}
+.diliu span{
+	position: absolute;
+	top: 0.22rem;
+	left: 0.4rem;
+	font-size: 0.22rem;
+	font-weight: bolder;
+}
+.diliu a{
+	width: 7.02rem;
+	height: 4.3rem;
+	margin-top: 0.2rem;
+	display: block;
+}
+.diliu img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.banquan{
+	width: 100%;
+	height: 0.92rem;
+	background: #f5f6fa;
+	overflow: hidden;
+	margin-top: 0.1rem;
+}
+.quan1{
+	width: 100%;
+	height: 0.2rem;
+	font-size: 0.17rem;
+	line-height: 0.2rem;
+	text-align: center;
+	color: #666666;
+	margin-top: 0.2rem;
+}
+.quan2{
+	width: 100%;
+	height: 0.2rem;
+	font-size: 0.18rem;
+	line-height: 0.2rem;
+	text-align: center;
+	color: #666666;
+	margin-top: 0.14rem;
+}

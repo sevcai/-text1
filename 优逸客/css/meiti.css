@@ -1,0 +1,314 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.toubu{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+.logo{
+	width: 0.72rem;
+	height: 0.67rem;
+	float: left;
+	margin-left: 2.73rem;
+	margin-top: 0.13rem;
+	background: url('logo.png') no-repeat center center;
+	background-size: 0.72rem 0.67rem;
+}
+.youyike{
+	width: 1.15rem;
+	height: 0.35rem;
+	float: left;
+	margin-left: 0.15rem;
+	margin-top: 0.29rem;
+	font-size: 0.34rem;
+	line-height: 0.34rem;
+	text-align: center;
+	color: #ffffff;
+}
+.head{
+	width: 100%;
+	height: 0.92rem;
+	background: white;
+}
+.banner{
+	width: 100%;
+	height: 2.8rem;
+	background: red;
+}
+.banner a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: green;
+}
+.banner a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.shouye{
+	width: 100%;
+	height: 0.82rem;
+	background: #f5f6fa;
+	overflow: hidden;
+}
+.shouye a{
+	display: block;
+	height: 0.21rem;
+	margin-top: 0.30rem;
+	font-size: 0.21rem;
+	color: #494747;
+	float: left;
+	line-height: 0.21rem;
+	margin-left: 0.23rem;
+}
+.shouye a:last-child{
+	margin-left: 0.04rem;
+}
+.fuhao{
+	float: left;
+	height: 0.21rem;
+	margin-top: 0.19rem;
+	margin-left: 0.1rem;
+	font-size: 0.21rem;
+}
+:root{
+	background: #f5f6fa;
+}
+.fenqu{
+	width: 100%;
+	height: 3.36rem;
+	background: #fff;
+	margin-bottom: 0.03rem;
+	position: relative;
+	overflow: hidden;
+}
+.fenqu>span{
+	font-size: 0.24rem;
+	font-weight: bold;
+	display: block;
+	margin-top: 0.15rem;
+	margin-left: 0.21rem;
+}
+.lansekuang{
+	width: 1.93rem;
+	height: 1.45rem;
+	box-sizing: border-box;
+	border: 1px solid #01b5ff;
+	position: absolute;
+	top: .72rem;
+	left: .34rem;
+	z-index: 9;
+}
+.landian1{
+	width: 0.04rem;
+	height: 0.04rem;
+	background: #01b5ff;
+	position: absolute;
+	top: .7rem;
+	left: .33rem;
+	z-index: 11;
+}
+.landian2{
+	width: 0.04rem;
+	height: 0.04rem;
+	background: #01b5ff;
+	position: absolute;
+	top: .7rem;
+	left: 2.25rem;
+	z-index: 11;
+}
+.landian3{
+	width: 0.04rem;
+	height: 0.04rem;
+	background: #01b5ff;
+	position: absolute;
+	top: 2.15rem;
+	left: 2.25rem;
+	z-index: 11;
+}
+.heisekuai{
+	width: 1.93rem;
+	height: 1.45rem;
+	background: #c8c8c8;
+	position: absolute;
+	top: 0.82rem;
+	left: 0.24rem;
+	z-index: 10;
+}
+.fenqu pre{
+	font-size: 0.24rem;
+	position: absolute;
+	top: 0.81rem;
+	left: 2.60rem;
+	line-height: 0.4rem;
+	color: #494747;
+}
+pre {
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+.liulan{
+	width: 7.01rem;
+	height: 0.62rem;
+	box-sizing: border-box;
+	border-top: 1px solid #d2d2d2;
+	border-bottom: 1px solid #d2d2d2;
+	position: absolute;
+	bottom: .28rem;
+	left: .25rem;
+	overflow: hidden;
+	color: #666666
+}
+.liulan .riqi{
+	margin-left: 0.09rem;
+	width: 1.78rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	font-size: 0.24rem;
+	float: left;
+}
+.riqi img{
+	width: 0.30rem;
+	height: 0.30rem;
+	display: block;
+	margin-top: 0.15rem;
+	float: left;
+}
+.riqi span{
+	display: block;
+	height: 100%;
+	float: left;
+	margin-left: 0.02rem;
+}
+.dianjiliang1{
+	margin-left: 0.4rem;
+	width: 2.42rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	font-size: 0.24rem;
+	float: left;
+}
+.dianjiliang1 img{
+	width: 0.30rem;
+	height: 0.30rem;
+	display: block;
+	margin-top: 0.15rem;
+	float: left;
+}
+.dianjiliang1 span{
+	display: block;
+	height: 100%;
+	float: left;
+	margin-left: 0.02rem;
+}
+.dianjiliang2{
+	margin-left: 0.4rem;
+	width: 1.78rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	font-size: 0.24rem;
+	float: left;
+}
+.dianjiliang2 img{
+	width: 0.30rem;
+	height: 0.30rem;
+	display: block;
+	margin-top: 0.15rem;
+	float: left;
+}
+.dianjiliang2 span{
+	display: block;
+	height: 100%;
+	float: left;
+	margin-left: 0.02rem;
+}
+.tiaozhuan{
+	width: 100%;
+	height: 0.7rem;
+	background: white;
+	position: relative;
+}
+.tiaozhuan a{
+	display: block;
+	width: 0.32rem;
+	height: 0.32rem;
+	float: left;
+	margin-top: 0.19rem;
+	margin-right: 0.14rem;
+	background: white;
+}
+.tiaozhuan a:first-child{
+	width: 0.58rem;
+	margin-left: 0.37rem;
+}
+.tiaozhuan a:nth-child(9){
+	width: 0.58rem;
+	margin-right: 1.77rem;
+}
+.tiao{
+	display: block;
+	height: 0.15rem;
+	position: absolute;
+	left: 4.9rem;
+	top: 0.28rem;
+	font-size: 0.15rem;
+	color: #111111;
+	line-height: 0.15rem;
+}
+.zhuan{
+	display: block;
+	height: 0.15rem;
+	position: absolute;
+	left: 6.35rem;
+	top: 0.28rem;
+	font-size: 0.15rem;
+	color: #111111;
+	line-height: 0.15rem;
+}
+.tiaozhuan a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.tiaozhuan input{
+	position: absolute;
+	right: 1.24rem;
+	top: 0.17rem;
+	width: 0.4rem;
+	height: 0.3rem;
+	border-radius: 0.1rem;
+}
+.banquan{
+	width: 100%;
+	height: 0.92rem;
+	background: #f5f6fa;
+	overflow: hidden;
+	margin-top: 0.1rem;
+}
+.quan1{
+	width: 100%;
+	height: 0.2rem;
+	font-size: 0.17rem;
+	line-height: 0.2rem;
+	text-align: center;
+	color: #666666;
+	margin-top: 0.2rem;
+}
+.quan2{
+	width: 100%;
+	height: 0.2rem;
+	font-size: 0.18rem;
+	line-height: 0.2rem;
+	text-align: center;
+	color: #666666;
+	margin-top: 0.14rem;
+}
